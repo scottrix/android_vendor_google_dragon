@@ -117,7 +117,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/dragon-common/proprietary/vendor/lib/libnvvicsi_v3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvvicsi_v3.so \
     vendor/google/dragon-common/proprietary/vendor/lib/libnvwinsys.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvwinsys.so \
     vendor/google/dragon-common/proprietary/vendor/lib/libnvwsi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvwsi.so \
-    vendor/google/dragon-common/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
+    vendor/google/dragon-common/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so.bak \
     vendor/google/dragon-common/proprietary/vendor/lib/libopencv24_tegra.so:$(TARGET_COPY_OUT_VENDOR)/lib/libopencv24_tegra.so \
     vendor/google/dragon-common/proprietary/vendor/lib/libphs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libphs.so \
     vendor/google/dragon-common/proprietary/vendor/lib/libpython2.6.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpython2.6.so \
