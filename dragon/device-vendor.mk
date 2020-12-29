@@ -23,8 +23,8 @@ PRODUCT_PACKAGES += \
 
 # aptX
 PRODUCT_COPY_FILES += \
-    vendor/google/dragon/proprietary/product/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptX_encoder.so \
-    vendor/google/dragon/proprietary/product/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptXHD_encoder.so
+    vendor/google/dragon/proprietary/system_ext/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaptX_encoder.so \
+    vendor/google/dragon/proprietary/system_ext/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaptXHD_encoder.so
 
 PRODUCT_COPY_FILES += \
     vendor/google/dragon/proprietary/lib/libvulkan.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvulkan.so \
