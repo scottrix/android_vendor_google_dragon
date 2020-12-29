@@ -102,7 +102,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/dragon-common/proprietary/vendor/lib/libnvmmlite_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvmmlite_video.so \
     vendor/google/dragon-common/proprietary/vendor/lib/libnvodm_imager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvodm_imager.so \
     vendor/google/dragon-common/proprietary/vendor/lib/libnvoice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvoice.so \
-    vendor/google/dragon-common/proprietary/vendor/lib/libnvomx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvomx.so \
+    vendor/google/dragon-common/proprietary/vendor/lib/libnvomx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvomx.so.bak \
     vendor/google/dragon-common/proprietary/vendor/lib/libnvomxilclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvomxilclient.so \
     vendor/google/dragon-common/proprietary/vendor/lib/libnvos.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvos.so \
     vendor/google/dragon-common/proprietary/vendor/lib/libnvparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvparser.so \
