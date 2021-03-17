@@ -25,8 +25,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/dragon/proprietary/lib/libvulkan.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvulkan.so \
     vendor/google/dragon/proprietary/lib64/libvulkan.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvulkan.so
 
-# Nvidia blob(s) necessary for Dragon hardware
 PRODUCT_COPY_FILES += \
-    vendor/google/dragon/proprietary/etc/permissions/privapp-permissions-google.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-google.xml \
     vendor/google/dragon/proprietary/etc/sysconfig/nexus.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/nexus.xml
 
