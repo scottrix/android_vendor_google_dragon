@@ -12,10 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Prebuilt APKs
-PRODUCT_PACKAGES += \
-    UserInfoWidget
-
 # Prebuilt privileged APKs
 PRODUCT_PACKAGES += \
     DragonKeyboardFirmwareUpdater \
