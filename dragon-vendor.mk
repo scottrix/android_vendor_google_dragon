@@ -179,38 +179,4 @@ PRODUCT_COPY_FILES += \
     vendor/google/dragon/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
     vendor/google/dragon/proprietary/vendor/bin/hw/android.hardware.drm@1.3-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.3-service.widevine
 
-# boot.img
-PRODUCT_COPY_FILES += \
-    vendor/google/dragon/proprietary/vendor/firmware/cros-pd/dingdong_v1.7.317-b0bb7c9.bin:root/vendor/firmware/cros-pd/dingdong_v1.7.317-b0bb7c9.bin \
-    vendor/google/dragon/proprietary/vendor/firmware/cros-pd/dingdong_v1.7.575-96b74f1.bin:root/vendor/firmware/cros-pd/dingdong_v1.7.575-96b74f1.bin \
-    vendor/google/dragon/proprietary/vendor/firmware/cros-pd/dingdong_v1.7.684-69498dd.bin:root/vendor/firmware/cros-pd/dingdong_v1.7.684-69498dd.bin \
-    vendor/google/dragon/proprietary/vendor/firmware/cros-pd/hoho_v1.7.317-b0bb7c9.bin:root/vendor/firmware/cros-pd/hoho_v1.7.317-b0bb7c9.bin \
-    vendor/google/dragon/proprietary/vendor/firmware/cros-pd/hoho_v1.7.575-96b74f1.bin:root/vendor/firmware/cros-pd/hoho_v1.7.575-96b74f1.bin \
-    vendor/google/dragon/proprietary/vendor/firmware/cros-pd/hoho_v1.7.684-69498dd.bin:root/vendor/firmware/cros-pd/hoho_v1.7.684-69498dd.bin \
-    vendor/google/dragon/proprietary/vendor/firmware/cros-pd/zinger_v1.7.509-e5bffd3.bin:root/vendor/firmware/cros-pd/zinger_v1.7.509-e5bffd3.bin \
-    vendor/google/dragon/proprietary/vendor/firmware/cros-pd/zinger_v1.7.539-91a0fa2.bin:root/vendor/firmware/cros-pd/zinger_v1.7.539-91a0fa2.bin \
-    vendor/google/dragon/proprietary/vendor/firmware/nouveau/acr_ucode.bin:root/vendor/firmware/nouveau/acr_ucode.bin \
-    vendor/google/dragon/proprietary/vendor/firmware/nouveau/fecs.bin:root/vendor/firmware/nouveau/fecs.bin \
-    vendor/google/dragon/proprietary/vendor/firmware/nouveau/fecs_sig.bin:root/vendor/firmware/nouveau/fecs_sig.bin \
-    vendor/google/dragon/proprietary/vendor/firmware/nouveau/gpmu_ucode_desc.bin:root/vendor/firmware/nouveau/gpmu_ucode_desc.bin \
-    vendor/google/dragon/proprietary/vendor/firmware/nouveau/gpmu_ucode_image.bin:root/vendor/firmware/nouveau/gpmu_ucode_image.bin \
-    vendor/google/dragon/proprietary/vendor/firmware/nouveau/nv12b_bundle:root/vendor/firmware/nouveau/nv12b_bundle \
-    vendor/google/dragon/proprietary/vendor/firmware/nouveau/nv12b_fuc41ac:root/vendor/firmware/nouveau/nv12b_fuc41ac \
-    vendor/google/dragon/proprietary/vendor/firmware/nouveau/nv12b_fuc41ad:root/vendor/firmware/nouveau/nv12b_fuc41ad \
-    vendor/google/dragon/proprietary/vendor/firmware/nouveau/nv12b_fuc409c:root/vendor/firmware/nouveau/nv12b_fuc409c \
-    vendor/google/dragon/proprietary/vendor/firmware/nouveau/nv12b_fuc409d:root/vendor/firmware/nouveau/nv12b_fuc409d \
-    vendor/google/dragon/proprietary/vendor/firmware/nouveau/nv12b_method:root/vendor/firmware/nouveau/nv12b_method \
-    vendor/google/dragon/proprietary/vendor/firmware/nouveau/nv12b_sw_ctx:root/vendor/firmware/nouveau/nv12b_sw_ctx \
-    vendor/google/dragon/proprietary/vendor/firmware/nouveau/nv12b_sw_nonctx:root/vendor/firmware/nouveau/nv12b_sw_nonctx \
-    vendor/google/dragon/proprietary/vendor/firmware/nouveau/pmu_bl.bin:root/vendor/firmware/nouveau/pmu_bl.bin \
-    vendor/google/dragon/proprietary/vendor/firmware/nouveau/pmu_sig.bin:root/vendor/firmware/nouveau/pmu_sig.bin \
-    vendor/google/dragon/proprietary/vendor/firmware/nvidia/tegra210/bpmp.bin:root/vendor/firmware/nvidia/tegra210/bpmp.bin \
-    vendor/google/dragon/proprietary/vendor/firmware/nvidia/tegra210/nvdec_bl_prod.bin:root/vendor/firmware/nvidia/tegra210/nvdec_bl_prod.bin \
-    vendor/google/dragon/proprietary/vendor/firmware/nvidia/tegra210/nvdec_ns.bin:root/vendor/firmware/nvidia/tegra210/nvdec_ns.bin \
-    vendor/google/dragon/proprietary/vendor/firmware/nvidia/tegra210/nvdec_prod.bin:root/vendor/firmware/nvidia/tegra210/nvdec_prod.bin \
-    vendor/google/dragon/proprietary/vendor/firmware/nvidia/tegra210/nvenc.bin:root/vendor/firmware/nvidia/tegra210/nvenc.bin \
-    vendor/google/dragon/proprietary/vendor/firmware/nvidia/tegra210/nvjpg.bin:root/vendor/firmware/nvidia/tegra210/nvjpg.bin \
-    vendor/google/dragon/proprietary/vendor/firmware/nvidia/tegra210/tegra_lp0_resume.fw:root/vendor/firmware/nvidia/tegra210/tegra_lp0_resume.fw \
-    vendor/google/dragon/proprietary/vendor/firmware/nvidia/tegra210/vic.bin:root/vendor/firmware/nvidia/tegra210/vic.bin \
-    vendor/google/dragon/proprietary/vendor/firmware/nvidia/tegra210/xusb.bin:root/vendor/firmware/nvidia/tegra210/xusb.bin
-
+$(call inherit-product,vendor/google/dragon/dragon-vendor-ramdisk.mk)
