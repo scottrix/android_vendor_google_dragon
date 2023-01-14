@@ -65,9 +65,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/dragon/proprietary/vendor/firmware/nvidia/tegra210/tegra_lp0_resume.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/nvidia/tegra210/tegra_lp0_resume.fw \
     vendor/google/dragon/proprietary/vendor/firmware/nvidia/tegra210/vic.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvidia/tegra210/vic.bin \
     vendor/google/dragon/proprietary/vendor/firmware/nvidia/tegra210/xusb.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvidia/tegra210/xusb.bin \
-    vendor/google/dragon/proprietary/vendor/firmware/bcm4350c0.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4350c0.hcd \
-    vendor/google/dragon/proprietary/vendor/firmware/fw_bcmdhd.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fw_bcmdhd.bin \
-    vendor/google/dragon/proprietary/vendor/firmware/fw_bcmdhd_apsta.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fw_bcmdhd_apsta.bin \
     vendor/google/dragon/proprietary/vendor/firmware/synaptics.img:$(TARGET_COPY_OUT_VENDOR)/firmware/synaptics.img \
     vendor/google/dragon/proprietary/vendor/lib/egl/libEGL_tegra.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libEGL_tegra.so \
     vendor/google/dragon/proprietary/vendor/lib/egl/libGLESv1_CM_tegra.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv1_CM_tegra.so \
@@ -78,7 +75,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/dragon/proprietary/vendor/lib/hw/memtrack.dragon.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.dragon.so \
     vendor/google/dragon/proprietary/vendor/lib/hw/ts.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/ts.default.so \
     vendor/google/dragon/proprietary/vendor/lib/hw/vulkan.tegra.so:$(TARGET_COPY_OUT_VENDOR)/lib/vulkan.tegra.so \
-    vendor/google/dragon/proprietary/vendor/lib/libdrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrm.so \
     vendor/google/dragon/proprietary/vendor/lib/libfcamdng.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfcamdng.so \
     vendor/google/dragon/proprietary/vendor/lib/libglcore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libglcore.so \
     vendor/google/dragon/proprietary/vendor/lib/libmediacodecservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmediacodecservice.so \
@@ -147,7 +143,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/dragon/proprietary/vendor/lib64/hw/gralloc.tegra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.tegra.so \
     vendor/google/dragon/proprietary/vendor/lib64/hw/memtrack.dragon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.dragon.so \
     vendor/google/dragon/proprietary/vendor/lib64/hw/vulkan.tegra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vulkan.tegra.so \
-    vendor/google/dragon/proprietary/vendor/lib64/libdrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdrm.so \
     vendor/google/dragon/proprietary/vendor/lib64/libglcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libglcore.so \
     vendor/google/dragon/proprietary/vendor/lib64/libminijail_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libminijail_vendor.so \
     vendor/google/dragon/proprietary/vendor/lib64/libnvavp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvavp.so \
@@ -158,7 +153,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/dragon/proprietary/vendor/lib64/libnvddk_vic.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvddk_vic.so \
     vendor/google/dragon/proprietary/vendor/lib64/libnvglsi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvglsi.so \
     vendor/google/dragon/proprietary/vendor/lib64/libnvgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvgr.so \
-    vendor/google/dragon/proprietary/vendor/lib64/libnvos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvos.so \
     vendor/google/dragon/proprietary/vendor/lib64/libnvrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvrm.so \
     vendor/google/dragon/proprietary/vendor/lib64/libnvrm_gpu.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvrm_gpu.so \
     vendor/google/dragon/proprietary/vendor/lib64/libnvrm_graphics.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvrm_graphics.so \
