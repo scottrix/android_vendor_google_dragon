@@ -66,6 +66,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/dragon/proprietary/vendor/firmware/nvidia/tegra210/vic.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvidia/tegra210/vic.bin \
     vendor/google/dragon/proprietary/vendor/firmware/nvidia/tegra210/xusb.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvidia/tegra210/xusb.bin \
     vendor/google/dragon/proprietary/vendor/firmware/synaptics.img:$(TARGET_COPY_OUT_VENDOR)/firmware/synaptics.img \
+    vendor/google/dragon/proprietary/vendor/firmware/rt5677_elf_vad:$(TARGET_COPY_OUT_VENDOR)/firmware/rt5677_elf_vad \
     vendor/google/dragon/proprietary/vendor/lib/egl/libEGL_tegra.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libEGL_tegra.so \
     vendor/google/dragon/proprietary/vendor/lib/egl/libGLESv1_CM_tegra.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv1_CM_tegra.so \
     vendor/google/dragon/proprietary/vendor/lib/egl/libGLESv2_tegra.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv2_tegra.so \
