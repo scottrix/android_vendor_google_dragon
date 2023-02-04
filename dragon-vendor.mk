@@ -27,6 +27,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/google/dragon/proprietary/system/etc/sysconfig/nexus.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/nexus.xml
 
+# Permissions
+PRODUCT_COPY_FILES += \
+    vendor/google/dragon/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml
+
+# Framework
+PRODUCT_COPY_FILES += \
+    vendor/google/dragon/proprietary/system_ext/framework/com.android.hotwordenrollment.common.util.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/com.android.hotwordenrollment.common.util.jar
+
 # vendor
 PRODUCT_COPY_FILES += \
     vendor/google/dragon/proprietary/vendor/bin/tlk_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/tlk_daemon \
@@ -173,5 +181,9 @@ PRODUCT_COPY_FILES += \
     vendor/google/dragon/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
     vendor/google/dragon/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
     vendor/google/dragon/proprietary/vendor/bin/hw/android.hardware.drm@1.3-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.3-service.widevine
+
+PRODUCT_PACKAGES += \
+    HotwordEnrollmentOKGoogleRT5677 \
+    HotwordEnrollmentXGoogleRT5677
 
 $(call inherit-product,vendor/google/dragon/dragon-vendor-ramdisk.mk)
